@@ -54,4 +54,9 @@ public class HttpServer extends TcpProtocolServer {
     public void stop() {
         super.stop();
     }
+
+    public static void main(String[] args) {
+        HttpServer server = new HttpServer(9000);
+        server.start();
+    }
 }

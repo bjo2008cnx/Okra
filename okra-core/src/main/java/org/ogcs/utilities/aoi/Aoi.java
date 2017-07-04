@@ -17,8 +17,6 @@
 package org.ogcs.utilities.aoi;
 
 /**
- * Area Of Interest.
- *
  * @author TinyZ
  * @date 2016-07-12.
  */

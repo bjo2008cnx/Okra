@@ -32,7 +32,7 @@ public final class Example {
      * <code>required string account = 1;</code>
      *
      * <pre>
-     *  The callbackLogin account
+     *  The login account
      * </pre>
      */
     boolean hasAccount();
@@ -40,7 +40,7 @@ public final class Example {
      * <code>required string account = 1;</code>
      *
      * <pre>
-     *  The callbackLogin account
+     *  The login account
      * </pre>
      */
     java.lang.String getAccount();
@@ -48,7 +48,7 @@ public final class Example {
      * <code>required string account = 1;</code>
      *
      * <pre>
-     *  The callbackLogin account
+     *  The login account
      * </pre>
      */
     com.google.protobuf.ByteString
@@ -84,7 +84,7 @@ public final class Example {
    * Protobuf type {@code MsgLogin}
    *
    * <pre>
-   * message callbackLogin
+   * message login
    * </pre>
    */
   public static final class MsgLogin extends
@@ -194,7 +194,7 @@ public final class Example {
      * <code>required string account = 1;</code>
      *
      * <pre>
-     *  The callbackLogin account
+     *  The login account
      * </pre>
      */
     public boolean hasAccount() {
@@ -204,7 +204,7 @@ public final class Example {
      * <code>required string account = 1;</code>
      *
      * <pre>
-     *  The callbackLogin account
+     *  The login account
      * </pre>
      */
     public java.lang.String getAccount() {
@@ -225,7 +225,7 @@ public final class Example {
      * <code>required string account = 1;</code>
      *
      * <pre>
-     *  The callbackLogin account
+     *  The login account
      * </pre>
      */
     public com.google.protobuf.ByteString
@@ -426,7 +426,7 @@ public final class Example {
      * Protobuf type {@code MsgLogin}
      *
      * <pre>
-     * message callbackLogin
+     * message login
      * </pre>
      */
     public static final class Builder extends
@@ -571,7 +571,7 @@ public final class Example {
        * <code>required string account = 1;</code>
        *
        * <pre>
-       *  The callbackLogin account
+       *  The login account
        * </pre>
        */
       public boolean hasAccount() {
@@ -581,7 +581,7 @@ public final class Example {
        * <code>required string account = 1;</code>
        *
        * <pre>
-       *  The callbackLogin account
+       *  The login account
        * </pre>
        */
       public java.lang.String getAccount() {
@@ -602,7 +602,7 @@ public final class Example {
        * <code>required string account = 1;</code>
        *
        * <pre>
-       *  The callbackLogin account
+       *  The login account
        * </pre>
        */
       public com.google.protobuf.ByteString
@@ -622,7 +622,7 @@ public final class Example {
        * <code>required string account = 1;</code>
        *
        * <pre>
-       *  The callbackLogin account
+       *  The login account
        * </pre>
        */
       public Builder setAccount(
@@ -639,7 +639,7 @@ public final class Example {
        * <code>required string account = 1;</code>
        *
        * <pre>
-       *  The callbackLogin account
+       *  The login account
        * </pre>
        */
       public Builder clearAccount() {
@@ -652,7 +652,7 @@ public final class Example {
        * <code>required string account = 1;</code>
        *
        * <pre>
-       *  The callbackLogin account
+       *  The login account
        * </pre>
        */
       public Builder setAccountBytes(
@@ -811,7 +811,7 @@ public final class Example {
      * <code>required string psw = 2;</code>
      *
      * <pre>
-     *  role's callbackLogin password
+     *  role's login password
      * </pre>
      */
     boolean hasPsw();
@@ -819,7 +819,7 @@ public final class Example {
      * <code>required string psw = 2;</code>
      *
      * <pre>
-     *  role's callbackLogin password
+     *  role's login password
      * </pre>
      */
     java.lang.String getPsw();
@@ -827,7 +827,7 @@ public final class Example {
      * <code>required string psw = 2;</code>
      *
      * <pre>
-     *  role's callbackLogin password
+     *  role's login password
      * </pre>
      */
     com.google.protobuf.ByteString
@@ -1033,7 +1033,7 @@ public final class Example {
      * <code>required string psw = 2;</code>
      *
      * <pre>
-     *  role's callbackLogin password
+     *  role's login password
      * </pre>
      */
     public boolean hasPsw() {
@@ -1043,7 +1043,7 @@ public final class Example {
      * <code>required string psw = 2;</code>
      *
      * <pre>
-     *  role's callbackLogin password
+     *  role's login password
      * </pre>
      */
     public java.lang.String getPsw() {
@@ -1064,7 +1064,7 @@ public final class Example {
      * <code>required string psw = 2;</code>
      *
      * <pre>
-     *  role's callbackLogin password
+     *  role's login password
      * </pre>
      */
     public com.google.protobuf.ByteString
@@ -1537,7 +1537,7 @@ public final class Example {
        * <code>required string psw = 2;</code>
        *
        * <pre>
-       *  role's callbackLogin password
+       *  role's login password
        * </pre>
        */
       public boolean hasPsw() {
@@ -1547,7 +1547,7 @@ public final class Example {
        * <code>required string psw = 2;</code>
        *
        * <pre>
-       *  role's callbackLogin password
+       *  role's login password
        * </pre>
        */
       public java.lang.String getPsw() {
@@ -1568,7 +1568,7 @@ public final class Example {
        * <code>required string psw = 2;</code>
        *
        * <pre>
-       *  role's callbackLogin password
+       *  role's login password
        * </pre>
        */
       public com.google.protobuf.ByteString
@@ -1588,7 +1588,7 @@ public final class Example {
        * <code>required string psw = 2;</code>
        *
        * <pre>
-       *  role's callbackLogin password
+       *  role's login password
        * </pre>
        */
       public Builder setPsw(
@@ -1605,7 +1605,7 @@ public final class Example {
        * <code>required string psw = 2;</code>
        *
        * <pre>
-       *  role's callbackLogin password
+       *  role's login password
        * </pre>
        */
       public Builder clearPsw() {
@@ -1618,7 +1618,7 @@ public final class Example {
        * <code>required string psw = 2;</code>
        *
        * <pre>
-       *  role's callbackLogin password
+       *  role's login password
        * </pre>
        */
       public Builder setPswBytes(

@@ -21,7 +21,7 @@ package org.ogcs.app;
 public interface Executor extends Releasable {
 
     /**
-     * Execute game logic.
+     * On execute
      */
     void onExecute();
 }
