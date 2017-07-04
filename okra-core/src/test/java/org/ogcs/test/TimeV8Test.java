@@ -34,16 +34,10 @@ public class TimeV8Test {
 
     @Test
     public void testDate() {
-        Assert.assertEquals(
-                TimeV8Util.date(),
-                DateUtil.formatDate(System.currentTimeMillis())
-        );
+        Assert.assertEquals(TimeV8Util.date(), DateUtil.formatDate(System.currentTimeMillis()));
         String var1 = TimeV8Util.date(System.currentTimeMillis());
         System.out.println("DATE : " + var1);
-        Assert.assertEquals(
-                LocalDate.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd")),
-                var1
-        );
+        Assert.assertEquals(LocalDate.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd")), var1);
     }
 
     @Test
@@ -52,10 +46,7 @@ public class TimeV8Test {
         LocalDateTime now = LocalDateTime.ofEpochSecond(n / 1000L, (int) (n % 1000), ZoneOffset.of("+08:00"));
         String var1 = TimeV8Util.dateTime(n);
         System.out.println("DATETIME : " + var1);
-        Assert.assertEquals(
-                now.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")),
-                var1
-        );
+        Assert.assertEquals(now.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")), var1);
     }
 
     @Test
@@ -67,14 +58,7 @@ public class TimeV8Test {
         int day3 = dayInterval(parseDate("2016-09-25"), parseDate("2016-09-24"));
         Assert.assertEquals(day3, -1);
         LinkedList<String> dayList = getDayList(parseDate("2016-09-19"), parseDate("2016-09-24"));
-        Assert.assertEquals(dayList, Arrays.asList(new String[]{
-                "2016-09-19",
-                "2016-09-20",
-                "2016-09-21",
-                "2016-09-22",
-                "2016-09-23",
-                "2016-09-24",
-        }));
+        Assert.assertEquals(dayList, Arrays.asList(new String[]{"2016-09-19", "2016-09-20", "2016-09-21", "2016-09-22", "2016-09-23", "2016-09-24",}));
     }
 
     @Test
