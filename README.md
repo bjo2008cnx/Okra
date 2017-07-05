@@ -27,9 +27,6 @@ Okra是一个简单的使用JAVA开发的高性能，高扩展，高并发，低
  1. [Okra Wiki](https://github.com/ogcs/Okra/wiki)
  2. [Get Started](https://github.com/ogcs/Okra/wiki/Get-started)
  3. [Author's Blog](https://tinyzzh.github.io)
+ 4. [TCP Server](TCPServer.md)  测试通过
+ 5. [Http Server](HttpServer.md) 已测试通过
 
-## How to Contribute ?
- Fork代码之后欢迎pr.
-
-## Why ?
- Just for fun ! 无聊练练手，写点东西.代码可能存在一些不成熟的地方, 欢迎反馈，我会尽快修复，完善.
